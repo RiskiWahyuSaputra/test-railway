@@ -1,8 +1,13 @@
 {
-  "name": "test-railway",
+  "name": "wa-bot-railway",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
+  },
+  "dependencies": {
+    "baileys": "^7.0.0-rc.9",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0"
   }
 }
